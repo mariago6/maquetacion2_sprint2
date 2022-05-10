@@ -1,0 +1,17 @@
+
+$primary: #5265E1;
+$secondary: #FA5959; 
+
+.figure {
+    height: 300px;
+    width: 450px;
+    background-color: $primary;
+    border-bottom-left-radius: 100%400px;
+    border-top-left-radius: 100%400px;
+    position: absolute; 
+    z-index: -1;     
+  }
+
+  
+@import "../node_modules/bootstrap/scss/bootstrap";
+

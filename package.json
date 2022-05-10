@@ -1,0 +1,23 @@
+{
+  "name": "Maquetacion2-Sprint2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariago6/maquetacion2_sprint2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariago6/maquetacion2_sprint2/issues"
+  },
+  "homepage": "https://github.com/mariago6/maquetacion2_sprint2#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
