@@ -12,6 +12,15 @@ $secondary: #FA5959;
     z-index: -1;     
   }
 
+  .figure2 {
+    height: 250px;
+    width: 600px;
+    background-color: $primary;
+    border-bottom-right-radius: 100%400px;
+    border-top-right-radius: 100%400px;
+    position: absolute; 
+    z-index: -1;     
+  }
   
 @import "../node_modules/bootstrap/scss/bootstrap";
 
