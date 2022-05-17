@@ -2,30 +2,154 @@
 $primary: #5265E1;
 $secondary: #FA5959; 
 
+// main {
+//   margin-top: 5;
+// }
+
+// .nav {
+//   display: flex;
+//   flex-wrap: wrap;
+//   padding-left: 0;
+//   margin-bottom: 0;
+//   list-style: none;
+// }
+
 .figure {
-  height: 300px;
-  width: 450px;
+  display: block;
+  height: 200px;
+  width: 300px;
   background-color: $primary;
-  border-bottom-left-radius: 100%400px;
-  border-top-left-radius: 100%400px;
+  // border-bottom-left-radius: 100%400px;
+  // border-top-left-radius: 100%400px;
   position: absolute; 
-  z-index: -1;     
+  z-index: -1; 
+  border-radius: 40% 0 0 40%;    
+  top: 250px;
+  right: 0;
 }
 
 .figure2 {
-  height: 250px;
-  width: 600px;
+  height: 150px;
+  width: 280px;
   background-color: $primary;
-  border-bottom-right-radius: 100%400px;
-  border-top-right-radius: 100%400px;
+  // border-bottom-right-radius: 100%400px;
+  // border-top-right-radius: 100%400px;
   position: absolute; 
   z-index: -1;     
+  border-radius: 0 40% 40% 0; 
+  left: 0; 
+  top: 1280px;
+  
 }
 
-.navbar {
-  background-color: white;
+// .navbar {
+//   background-color: white;
+// }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .figure {
+    display: block;
+    height: 200px;
+    width: 250px;
+    background-color: $primary;
+    position: absolute; 
+    z-index: -1; 
+    border-radius: 50% 0 0 50%;    
+    top: 60px;
+    right: 0;
+  }
 }
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .figure {
+    display: block;
+    height: 350px;
+    width: 550px;
+    background-color: $primary;
+    position: absolute; 
+    z-index: -1; 
+    border-radius: 50% 0 0 50%;    
+    top: 350px;
+    right: 0;
+  }
+  .figure2 {
+    height: 300px;
+    width: 550px;
+    background-color: $primary;
+    position: absolute; 
+    z-index: -1;     
+    border-radius: 0 40% 40% 0; 
+    left: 0; 
+    top: 1400px; 
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .figure {
+    display: block;
+    height: 300px;
+    width: 550px;
+    background-color: $primary;
+    position: absolute; 
+    z-index: -1; 
+    border-radius: 40% 0 0 40%;    
+    top: 300px;
+    right: 0;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .figure {
+    display: block;
+    height: 300px;
+    width: 520px;
+    background-color: $primary;
+    position: absolute; 
+    z-index: -1; 
+    border-radius: 50% 0 0 50%;    
+    top: 300px;
+    right: 0;
+  }
+  .figure2 {
+    height: 250px;
+    width: 550px;
+    background-color: $primary;
+    position: absolute; 
+    z-index: -1;     
+    border-radius: 0 40% 40% 0; 
+    left: 0; 
+    top: 980px; 
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .figure {
+    display: block;
+    height: 350px;
+    width: 720px;
+    background-color: $primary;
+    position: absolute; 
+    z-index: -1; 
+    border-radius: 40% 0 0 40%;    
+    top: 300px;
+    right: 0;
+  }
+  .figure2 {
+    height: 350px;
+    width: 800px;
+    background-color: $primary;
+    position: absolute; 
+    z-index: -1;     
+    border-radius: 0 40% 40% 0; 
+    left: 0; 
+    top: 1050px; 
+  }
+}
 
 
 
